@@ -11,7 +11,6 @@ document.querySelector("#signup-form .actions ul li:last-child a").onclick =
       let patient = {};
       for (let input of arrInput) {
         let { id, value } = input;
-
         patient = { ...patient, [id]: value };
       }
 
